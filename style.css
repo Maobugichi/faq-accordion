@@ -118,6 +118,8 @@ article {
     }
 
     .container {
+     height: auto;
+     background-color: red;
      width: 370px;   
      left: 10px;
      top: 200px;
