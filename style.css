@@ -146,3 +146,40 @@ article {
     
 }
 
+@media (min-width:700px) {
+    main {
+        height: 130vh;
+        }
+        
+        section {
+         height: 30%;
+        }
+    
+        .container {
+         height: auto;
+         width: 95%;   
+         left: 2.5%;
+         top: 250px;
+        }
+        
+        h1 {
+         font-size: 25px;
+        }
+        
+        .faq-top img {
+         width: 25px;
+        }
+    
+        .accordion {
+         padding: 10px;
+        }
+        
+        .text {
+         font-size: 15px;
+        }
+        
+        .text p {
+         width: 85%;
+        }
+}
+
