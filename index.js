@@ -1,7 +1,7 @@
 const plus = document.querySelectorAll(".plus");
 const accordionContent = document.querySelectorAll(".accordion-details")
-const imgsrc = "http://127.0.0.1:5500/assets/images/icon-minus.svg"
-const plusrc = "http://127.0.0.1:5500/assets/images/icon-plus.svg"
+const imgsrc = "/assets/images/icon-minus.svg"
+const plusrc = "/assets/images/icon-plus.svg"
 const container = document.querySelector(".container")
 const article = document.querySelector("article")
 const main = document.querySelector("main")
@@ -14,8 +14,8 @@ plus.forEach((item,index) => {
 })
 
 function showContent(item,index) {
-    console.log(item.src)
- if (item.src !== imgsrc ) {
+    console.log(item.src.includes("/assets/images/icon-plus.svg"))
+ if (item.src.includes("/assets/images/icon-plus.svg")) {
     console.log(container)
     
     accordionContent[index].classList.add("block")
@@ -27,7 +27,6 @@ function showContent(item,index) {
     } else {
     accordionContent[index].classList.remove("block")
     item.setAttribute("src", plusrc)
-    
     console.log(container.clientHeight)
     }
 
