@@ -146,7 +146,7 @@ article {
     
 }
 
-@media (min-width:700px) {
+@media (min-width:700px) and (max-width:1000px) {
     main {
         height: 130vh;
         }
