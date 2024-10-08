@@ -110,7 +110,7 @@ article {
 
 @media (max-width:600px) {
    main {
-    height: 100vh;
+    height: 130vh;
     }
     
     section {
@@ -119,8 +119,8 @@ article {
 
     .container {
      height: auto;
-     width: 370px;   
-     left: 10px;
+     width: 95%;   
+     left: 2.5%;
      top: 250px;
     }
     
