@@ -114,15 +114,14 @@ article {
     }
     
     section {
-     height: 40%;
+     height: 30%;
     }
 
     .container {
      height: auto;
-     background-color: red;
      width: 370px;   
      left: 10px;
-     top: 200px;
+     top: 250px;
     }
     
     h1 {
@@ -134,7 +133,7 @@ article {
     }
 
     .accordion {
-     padding: 0px;
+     padding: 10px;
     }
     
     .text {
