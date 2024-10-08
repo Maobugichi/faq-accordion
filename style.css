@@ -1,0 +1,147 @@
+* {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+main {
+ height: 130vh;
+ background-color: hsl(275, 100%, 97%);
+ 
+ font-family: "Work Sans", sans-serif;
+ font-optical-sizing: auto;
+ overflow-x: hidden;
+ font-style: normal;
+}
+
+section {
+ background: url("./assets/images/background-pattern-desktop.svg");
+ height: 30%;
+ position: relative;
+}
+
+.container {
+ background-color: hsl(0, 0%, 100%);
+ border-radius: 10px;
+ padding: 20px;
+ width: 530px;   
+ margin: auto;
+ height: 400px;
+ position: absolute;
+ left: 350px;
+ top: 150px;
+}
+
+h1 {
+    font-size: 35px;
+    color: hsl(292, 42%, 14%);
+}
+.auto {
+ height: fit-content;
+}
+
+.faq-top {
+ display: flex;
+ align-items: center;
+ gap: 10px;
+ margin-top: 20px;
+ height: 50px;
+}
+
+.faq-top img {
+ width: 30px;
+}
+.content {
+ height: 100%;
+}
+
+article {
+ height: 80%;
+ display: flex;
+ justify-content: space-around;
+ flex-direction: column;
+ 
+ gap: 10px;
+}
+
+.accordion {
+ width: 97%;
+ margin: 10px auto;
+ position: relative;
+ border-bottom: 0.8px solid hsl(275, 100%, 97%);
+ padding: 8px;
+}
+
+.borderless {
+ border: none;
+}
+
+.text {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ font-size: 16px;
+}
+
+.text p {
+ color: hsl(292, 42%, 14%);
+ font-weight: 700;
+ cursor: pointer;
+}
+
+.text p:hover {
+ color: hsl(293, 53%, 50%);
+}
+
+
+.accordion-details {
+ display: none;
+}
+
+.block {
+ height: 90px;
+ display: block;
+ margin-top: 15px;
+ font-size: 14px;
+ color: hsl(292, 16%, 49%);
+}
+
+
+
+@media (max-width:600px) {
+   main {
+    height: 100vh;
+    }
+    
+    section {
+     height: 40%;
+    }
+
+    .container {
+     width: 370px;   
+     left: 10px;
+     top: 200px;
+    }
+    
+    h1 {
+     font-size: 25px;
+    }
+    
+    .faq-top img {
+     width: 25px;
+    }
+
+    .accordion {
+     padding: 0px;
+    }
+    
+    .text {
+     font-size: 15px;
+    }
+    
+    .text p {
+     width: 85%;
+    }
+    
+}
+
