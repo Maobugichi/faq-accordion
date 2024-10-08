@@ -31,10 +31,9 @@ function showContent(item,index) {
     }
 
     
-    if (container.clientHeight <= 410) {
+    if (container.clientHeight <= 400) {
         container.classList.remove("auto")
         article.classList.remove("auto")
         main.style.height = "130vh"
-       
     }
 }
